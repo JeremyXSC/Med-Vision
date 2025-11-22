@@ -10,7 +10,7 @@
 ## Overview
 we propose a novel framework named Med-Vision that leverages multi-modal large models for automated polyp diagnosis report generation. In particular, we construct a multimodal dataset comprising colonoscopy images and expert diagnostic texts, fine-tune the Qwen3-VL-Instruct model using parameter-efficient methods and further optimize it with Direct Preference Optimization. Extensive experiments demonstrate that our method outperforms existing approaches on both automated metrics and clinical expert evaluations, significantly reducing computational requirements while maintaining high performance.
 
-This dataset should be used for research only. Please DO NOT distribute or use it for commercial purpose🔐. 
+This AI agent should be used for research only. Please DO NOT distribute or use it for commercial purpose🔐. 
 
 ****
 
