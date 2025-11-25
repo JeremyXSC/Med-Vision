@@ -3,7 +3,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/JeremyXSC/Med-Vision.svg?style=flat&label=Star)
 
 # Med-Vision: A Large Multimodal Model for Medical Scene Understanding
-### [Suncheng Xiang](https://JeremyXSC.github.io/)
+### [Suncheng Xiang](https://JeremyXSC.github.io/), [Tianyu Zhou]()
 ### [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)
 
 
@@ -23,12 +23,15 @@ This AI agent should be used for research only. Please DO NOT distribute or use 
 
 ****
 ## :fire: NEWS :fire:
-- [11/2025] **📣 Our 🚀Med-Vision AI Agent is publicly availble online.!**
+- [11/2025] **📣 Our 🚀Med-Vision AI Agent is publicly available online!**
 
 ****
 ## Table of Contents👀
 - [Med-Vision Introduction](#Med-Vision Introduction)
 - [Med-Vision Preparation](#Med-Vision Preparation)
+- [Image Inference](#image Inference)
+- [Video Inference](#Video Inference)
+- [AI Medical Consultation Report](#AI Medical Consultation Report)
 
 ****
 ## Med-Vision Introduction
@@ -41,7 +44,27 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 #### A weight of Med-Vision can be downloaded from the following links:<br>
 * Microsoft OneDrive:
     * [Download Link](https://1drv.ms/f/c/f90b38354a7cfaf5/IgB0EI_2kJ22Qr71S4_L3mjOAY5i3IiYPxM47q93eM6OSQs?e=Tdcok2)
-      </div> 
+    
+* SJTU Yun Drive:
+    * [Download Link](https://pan.sjtu.edu.cn/web/share/f90acb8af77b5e3ea396ce02cc067080) password: q41v
+    
+    * </div> 
+
+
+## Image Inference
+Our Med-Vision agent supports the image inference.
+
+<img src='images/Test-Image-Result.png'/>
+
+## Video Inference
+Our Med-Vision agent supports the video inference.
+
+<video src="videos/Test-Video-Result.mp4" controls="controls" width="900" height="600"></video>
+
+## AI Medical Consultation Report
+Our Med-Vision agent also supports the medical report generation and treatment suggestion.
+<img src='images/Report-Generation.png'/>
+
 
 ## Citation
 If you use our Med-Vision for your research, please cite our [Paper](https://dl.acm.org/doi/pdf/10.1145/3588441).
@@ -74,7 +97,7 @@ Permissions of this strong copyleft license (GNU General Public License v3.0) ar
 ****
 
 ## Acknowledgements
-This research was supported by the National Natural Science Foundation of China under Project (Grant No. 62301315). We would like to thank authors of Tianyu Zhou and Qingwei Zhang for his hard work on this work. They provide tremendous efforts in these dataset to advance the research in this field. We also appreciate [Shilun Cai](https://www.youlai.cn/yyk/docindex/404902/doctorinfo.html) for insightful feedback and discussion.
+This research was supported by the National Natural Science Foundation of China under Project (Grant No. 62301315). We would like to thank authors of Tianyu Zhou for his hard work on this work. They provide tremendous efforts in these dataset to advance the research in this field. We also appreciate [Qingwei Zhang](https://www.youlai.cn/yyk/docindex/404902/doctorinfo.html), [Shilun Cai](https://www.youlai.cn/yyk/docindex/404902/doctorinfo.html) for insightful feedback and discussion.
 
 ****
 
