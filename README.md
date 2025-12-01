@@ -10,20 +10,18 @@
 ## Overview
 In this work, we propose a novel framework named Med-Vision that leverages multi-modal large models for automated polyp diagnosis report generation. In particular, we construct a multimodal dataset comprising colonoscopy images and expert diagnostic texts, fine-tune the Qwen3-VL-Instruct model using parameter-efficient methods and further optimize it with Direct Preference Optimization. Extensive experiments demonstrate that our method outperforms existing approaches on both automated metrics and clinical expert evaluations, significantly reducing computational requirements while maintaining high performance.
 
-This AI agent should be used for research only. Please DO NOT distribute or use it for commercial purpose🔐. 
-
 ****
 
 <img src='images/Med-Vision.png'/>
 
-[**[Paper]**](https://arxiv.org/pdf/2109.10498.pdf)   [**[Video Sample]**](https://www.youtube.com/watch?v=toR_73U9yLs)   [**[Related Project]**](https://JeremyXSC.github.io/GPR/)   [**[Demo1]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent/summary)  [**[Demo2]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent/summary)    
+[**[Paper]**](https://arxiv.org/pdf/2109.10498.pdf)   [**[Video Sample]**](https://www.youtube.com/watch?v=toR_73U9yLs)   [**[Related Project]**](https://JeremyXSC.github.io/GPR/)   [**[Demo]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.2/summary)  
 
 </div> 
 
 
 ****
-## :fire: NEWS :fire:
-- [11/2025] **📣 Our 🚀Med-Vision AI Agent is publicly available online!**
+## 📣 NEWS 
+- [11/2025] **Our 🚀Med-Vision AI Agent is publicly available online!**
 
 ****
 ## Table of Contents👀
@@ -59,27 +57,37 @@ Our Med-Vision agent supports the image inference.
 ## Video Inference
 Our Med-Vision agent supports the video inference.
 
-<video src="videos/Test-Video-Result.mp4" controls="controls" width="900" height="600"></video>
+<video src="videos/Test-Video-Result.mp4" controls="controls" width="800" height="600"></video>
 
 ## AI Medical Consultation Report
 Our Med-Vision agent also supports the medical report generation and treatment suggestion.
-<img src='images/Report-Generation.png'/>
+
+<img src='images/Report-Generation1.png'/>
 
 
 ## Citation
 If you use our Med-Vision for your research, please cite our [Paper](https://dl.acm.org/doi/pdf/10.1145/3588441).
 ```
-@article{xiang2023less,
-  title={Less is more: Learning from synthetic data with fine-grained attributes for person re-identification},
-  author={Xiang, Suncheng and Qian, Dahong and Guan, Mengyuan and Yan, Binjie and Liu, Ting and Fu, Yuzhuo and You, Guanjie},
-  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
-  volume={19},
-  number={5s},
-  pages={1--20},
-  year={2023},
-  publisher={ACM New York, NY}
+@article{xiang2023towards,
+  title={Towards discriminative representation with meta-learning for colonoscopic polyp re-identification},
+  author={Xiang, Suncheng and Chen, Qingzhong and Cai, Shilun and Zhou, Chengfeng and Cai, Crystal and Du, Sijia and Zhang, Zhengjie and Zhong, Yunshi and Qian, Dahong},
+  journal={arXiv preprint arXiv:2308.00929},
+  year={2023}
 }
 ```
+
+```
+@inproceedings{xiang2024vt,
+  title={Vt-reid: Learning discriminative visual-text representation for polyp re-identification},
+  author={Xiang, Suncheng and Liu, Cang and Ruan, Jiacheng and Cai, Shilun and Du, Sijia and Qian, Dahong},
+  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={3170--3174},
+  year={2024},
+  organization={IEEE}
+}
+```
+
+
 ****
 
 ## Ethical Considerations
