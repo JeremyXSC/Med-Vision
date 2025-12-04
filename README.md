@@ -38,7 +38,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 The Med-Vision solution is a novel framework named **Med-Vision** that leverages multi-modal large models for automated polyp diagnosis report generation, which is not only applicable to the static analysis of medical images but can also be seamlessly integrated into endoscopic examination equipment, providing real-time diagnostic assistance to doctors. Its high efficiency and accuracy contribute to improving the detection rate of early-stage polyps, reducing the risks of missed diagnoses and misdiagnoses. It offers strong support for the early screening and treatment of gastrointestinal diseases, thereby driving the development of smart healthcare.
 <br>
 
-
+****
 ## Med-Vision Preparation
 
 #### A weight of Med-Vision can be downloaded from the following links:<br>
@@ -50,24 +50,26 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
     
     * </div> 
 
+****
 ## Dataset Collection
 As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources, incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations.
 
 <img src="images/DeepColl.png"  alt="DeepColl" width="800px" >
 
 
-
+****
 ## Image Inference
 Our Med-Vision agent supports the image inference.
 
 <img src="images/Test-Image-Result.png"  alt="Test-Image-Result" width="800px" >
 
-
+****
 ## Video Inference
 Our Med-Vision agent supports the video inference.
 
 <video source="videos/Test-Video-Result.mp4" type="videos/Test-Video-Result.mp4" controls="controls" width="800px" ></video>
 
+****
 ## AI Medical Consultation Report
 Our Med-Vision agent also supports the medical report generation and treatment suggestion.
 
