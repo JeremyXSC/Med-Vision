@@ -52,7 +52,7 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 
 ****
 ## Dataset Collection
-As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources, incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations.
+As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available 
 
 <img src="images/DeepColl.png"  alt="DeepColl" width="800px" >
 
