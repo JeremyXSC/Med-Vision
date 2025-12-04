@@ -12,7 +12,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 
 ****
 
-<img src="images/Med-Vision.png"  alt="Med-Vision" width="1000px" >
+<img src="images/Med-Vision.png"  alt="Med-Vision" width="800px" >
 
 [**[Paper]**](https://arxiv.org/pdf/2109.10498.pdf)   [**[Video Sample]**](https://www.youtube.com/watch?v=toR_73U9yLs)   [**[Related Project]**](https://JeremyXSC.github.io/GPR/)   [**[Demo]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.2/summary)  
 
@@ -53,25 +53,25 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 ## Dataset Collection
 As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources, incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations.
 
-<img src="images/DeepColl.png"  alt="DeepColl" width="1000px" >
+<img src="images/DeepColl.png"  alt="DeepColl" width="800px" >
 
 
 
 ## Image Inference
 Our Med-Vision agent supports the image inference.
 
-<img src="images/Test-Image-Result.png"  alt="Test-Image-Result" width="1000px" >
+<img src="images/Test-Image-Result.png"  alt="Test-Image-Result" width="800px" >
 
 
 ## Video Inference
 Our Med-Vision agent supports the video inference.
 
-<video src="videos/Test-Video-Result.mp4" controls="controls" width="800" ></video>
+<video source="videos/Test-Video-Result.mp4" type="videos/Test-Video-Result.mp4" controls="controls" width="800px" ></video>
 
 ## AI Medical Consultation Report
 Our Med-Vision agent also supports the medical report generation and treatment suggestion.
 
-<img src="images/Report-Generation1.png"  alt="Report-Generation1" width="1000px" >
+<img src="images/Report-Generation1.png"  alt="Report-Generation1" width="800px" >
 
 
 
