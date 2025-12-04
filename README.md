@@ -12,7 +12,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 
 ****
 
-<img src="images/Med-Vision.png"  alt="Med-Vision" width="800px" >
+<img src="images/Med-Vision.png"  alt="Med-Vision" width="700px" >
 
 [**[Paper]**](https://arxiv.org/pdf/2109.10498.pdf)   [**[Video Sample]**](https://www.youtube.com/watch?v=toR_73U9yLs)   [**[Related Project]**](https://JeremyXSC.github.io/GPR/)   [**[Demo]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.2/summary)  
 
@@ -54,26 +54,26 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 ## Dataset Collection
 As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available 
 
-<img src="images/DeepColl.png"  alt="DeepColl" width="800px" >
+<img src="images/DeepColl.png"  alt="DeepColl" width="700px" >
 
 
 ****
 ## Image Inference
 Our Med-Vision agent supports the image inference.
 
-<img src="images/Test-Image-Result.png"  alt="Test-Image-Result" width="800px" >
+<img src="images/Test-Image-Result.png"  alt="Test-Image-Result" width="700px" >
 
 ****
 ## Video Inference
 Our Med-Vision agent supports the video inference.
 
-<video source="videos/Test-Video-Result.mp4" type="videos/Test-Video-Result.mp4" controls="controls" width="800px" ></video>
+<video source="videos/Test-Video-Result.mp4" type="videos/Test-Video-Result.mp4" controls="controls" width="700px" ></video>
 
 ****
 ## AI Medical Consultation Report
 Our Med-Vision agent also supports the medical report generation and treatment suggestion.
 
-<img src="images/Report-Generation1.png"  alt="Report-Generation1" width="800px" >
+<img src="images/Report-Generation1.png"  alt="Report-Generation1" width="700px" >
 
 
 
