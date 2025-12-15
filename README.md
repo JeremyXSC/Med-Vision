@@ -29,6 +29,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 - [Med-Vision Introduction](#Med-Vision Introduction)
 - [Med-Vision Preparation](#Med-Vision Preparation)
 - [Dataset Collection](#Dataset Collection)
+- [Dataset Annotaion](#Dataset Annotation)
 - [Image Inference](#image Inference)
 - [Video Inference](#Video Inference)
 - [AI Medical Consultation Report](#AI Medical Consultation Report)
@@ -48,14 +49,20 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 * SJTU Yun Drive:
     * [Download Link](https://pan.sjtu.edu.cn/web/share/f90acb8af77b5e3ea396ce02cc067080) password: q41v
     
-    * </div> 
+
 
 ****
 ## Dataset Collection
-As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available 
+As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available as following:
 
 <img src="images/DeepColl.png"  alt="DeepColl" width="700px" >
 
+
+****
+## Dataset Annotation
+Dataset labelling is the process of assigning meaningful and accurate labels or annotations to individual data points within a dataset. This crucial step involves human experts or automated algorithms carefully examining each data sample, such as images, text, audio, or video, and marking them with relevant categories, tags, or descriptions. The purpose of dataset labelling is to provide structured information that enables machine learning models to understand and learn from the data effectively. Well-labelled datasets are essential for training high-performance models, as they ensure that the algorithms can recognize patterns, make accurate predictions, and perform tasks with precision across various applications, ranging from image recognition and natural language processing to autonomous driving and medical diagnosis.
+
+<img src="images/Annotation.png"  alt="Annotaion" width="700px" >
 
 ****
 ## Image Inference
@@ -79,6 +86,17 @@ Our Med-Vision agent also supports the medical report generation and treatment s
 
 ## Citation
 If you use our Med-Vision for your research, please cite our [Paper](https://dl.acm.org/doi/pdf/10.1145/3588441).
+```
+@inproceedings{chen2023colo,
+  title={Colo-scrl: Self-supervised contrastive representation learning for colonoscopic video retrieval},
+  author={Chen, Qingzhong and Cai, Shilun and Cai, Crystal and Yu, Zefang and Qian, Dahong and Xiang, Suncheng},
+  booktitle={2023 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1056--1061},
+  year={2023},
+  organization={IEEE}
+}
+```
+
 ```
 @article{xiang2023towards,
   title={Towards discriminative representation with meta-learning for colonoscopic polyp re-identification},
