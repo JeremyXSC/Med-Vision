@@ -6,6 +6,7 @@
 ### [Suncheng Xiang](https://JeremyXSC.github.io/), [Tianyu Zhou]()
 ### [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)
 
+🤝Community Contributions: [[llama.cpp](https://github.com/ggerganov/llama.cpp/pull/3436)] [[Colab](https://github.com/camenduru/LLaVA-colab)] [[🤗Space](https://huggingface.co/spaces/badayvedat/LLaVA)] [[Replicate](https://replicate.com/yorickvp/llava-13b)] [[AutoGen](https://github.com/microsoft/autogen/blob/main/notebook/agentchat_lmm_llava.ipynb)]  [[BakLLaVA](https://github.com/SkunkworksAI/BakLLaVA)]
 
 ## Overview
 In this work, we propose a novel framework named Med-Vision that leverages multi-modal large models for automated polyp diagnosis report generation. In particular, we construct a multimodal dataset comprising colonoscopy images and expert diagnostic texts, fine-tune the Qwen3-VL-Instruct model using parameter-efficient methods and further optimize it with Direct Preference Optimization. Extensive experiments demonstrate that our method outperforms existing approaches on both automated metrics and clinical expert evaluations, significantly reducing computational requirements while maintaining high performance.
@@ -25,7 +26,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 - [12/2025] **Our 🚀Data Collector Agent is publicly available online!**
 
 ****
-## Table of Contents👀
+## Contents👀
 - [Med-Vision Introduction](#Med-Vision Introduction)
 - [Med-Vision Preparation](#Med-Vision Preparation)
 - [Dataset Collection](#Dataset Collection)
@@ -33,6 +34,8 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 - [Image Inference](#image Inference)
 - [Video Inference](#Video Inference)
 - [AI Medical Consultation Report](#AI Medical Consultation Report)
+- [Evaluation](#evaluation)
+
 
 ****
 ## Med-Vision Introduction
@@ -82,10 +85,27 @@ Our Med-Vision agent also supports the medical report generation and treatment s
 
 <img src="images/Report-Generation1.png"  alt="Report-Generation1" width="700px" >
 
+## Evaluation
+
+In Med-Vision, we evaluate models on a diverse set of 3 benchmarks. To ensure the reproducibility, we evaluate the models with greedy decoding. We do not evaluate using beam search to make the inference process consistent with the chat demo of real-time outputs.
+
+See [Evaluation.md](https://github.com/JeremyXSC/Med-Vision/blob/main/README.md).
 
 
+                                
 ## Citation
-If you use our Med-Vision for your research, please cite our [Paper](https://dl.acm.org/doi/pdf/10.1145/3588441).
+
+If you find LLaVA useful for your research and applications, please cite using this BibTeX:
+
+```
+@article{zhou2025ldp,
+  title={LDP: Parameter-Efficient Fine-Tuning of Multimodal LLM for Medical Report Generation},
+  author={Zhou, Tianyu and Tang, Junyi and Li, Zehui and Qian, Dahong and Xiang, Suncheng},
+  journal={arXiv preprint arXiv:2512.10750},
+  year={2025}
+}
+```
+
 ```
 @inproceedings{chen2023colo,
   title={Colo-scrl: Self-supervised contrastive representation learning for colonoscopic video retrieval},
