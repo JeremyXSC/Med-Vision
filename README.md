@@ -15,7 +15,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 
 <img src="images/Med-Vision.png"  alt="Med-Vision" width="700px" >
 
-[**[Paper]**](https://arxiv.org/pdf/2109.10498.pdf)   [**[Video Sample]**](https://www.youtube.com/watch?v=toR_73U9yLs)   [**[Related Project]**](https://JeremyXSC.github.io/GPR/)   [**[Demo]**](https://modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.2/summary)  
+[**[Paper]**](https://arxiv.org/pdf/2512.10750.pdf)   [**[Demo]**](https://www.modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.4)  
 
 </div> 
 
@@ -23,7 +23,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 ****
 ## 📣 NEWS 
 - [11/2025] **Our 🚀Med-Vision AI Agent is publicly available online!**
-- [12/2025] **Our 🚀Data Collector Agent is publicly available online!**
+- [12/2025] **Our 🚀Data Collector Agent DeepCOLE is publicly available online!**
 
 ****
 ## Contents👀
@@ -34,7 +34,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 - [Image Inference](#image Inference)
 - [Video Inference](#Video Inference)
 - [AI Medical Consultation Report](#AI Medical Consultation Report)
-- [Evaluation](#evaluation)
+- [Evaluation](#Evaluation)
 
 
 ****
@@ -56,9 +56,9 @@ The Med-Vision solution is a novel framework named **Med-Vision** that leverages
 
 ****
 ## Dataset Collection
-As part of our large-scale data collection efforts, we implemented [DeepColl](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available as following:
+As part of our large-scale data collection efforts, we implemented [DeepCORE](https://modelscope.cn/studios/Zaoshangzhou/Dataset-Collector-v0.1), a specialized agent that enables efficient and bias-controlled sampling from heterogeneous sources (e.g. [Bing Search](https://www.bing.com/) and [Kaggle Library](https://www.kaggle.com/)), incorporating ethical AI frameworks to ensure compliance with GDPR and other data privacy regulations. More visual results is available as following:
 
-<img src="images/DeepColl.png"  alt="DeepColl" width="700px" >
+<img src="images/DeepCORE.png"  alt="DeepCORE" width="700px" >
 
 
 ****
