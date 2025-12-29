@@ -27,13 +27,13 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 
 ****
 ## Contents👀
-- [Med-Vision Introduction](#Med-Vision Introduction)
-- [Med-Vision Preparation](#Med-Vision Preparation)
-- [Dataset Collection](#Dataset Collection)
-- [Dataset Annotaion](#Dataset Annotation)
-- [Image Inference](#image Inference)
-- [Video Inference](#Video Inference)
-- [AI Medical Consultation Report](#AI Medical Consultation Report)
+- [Med-Vision-Introduction](#Med-Vision Introduction)
+- [Med-Vision-Preparation](#Med-Vision Preparation)
+- [Dataset-Collection](#Dataset Collection)
+- [Dataset-Annotaion](#Dataset Annotation)
+- [Image-Inference](#image Inference)
+- [Video-Inference](#Video Inference)
+- [AI-Medical-Consultation-Report](#AI Medical Consultation Report)
 - [Evaluation](#Evaluation)
 
 
@@ -95,7 +95,7 @@ See [Evaluation.md](https://github.com/JeremyXSC/Med-Vision/blob/main/README.md)
                                 
 ## Citation
 
-If you find LLaVA useful for your research and applications, please cite using this BibTeX:
+If you find Med-Vision useful for your research and applications, please cite using this BibTeX:
 
 ```
 @article{zhou2025ldp,
