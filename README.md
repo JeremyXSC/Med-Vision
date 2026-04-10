@@ -15,7 +15,7 @@ In this work, we propose a novel framework named Med-Vision that leverages multi
 
 <img src="images/Med-Vision.png"  alt="Med-Vision" width="700px" >
 
-[**[Paper]**](https://arxiv.org/pdf/2512.10750.pdf)   [**[Demo]**](https://www.modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.4)  
+[**[Paper]**](https://arxiv.org/pdf/2512.10750.pdf)   [**[Demo]**](https://www.modelscope.cn/studios/Zaoshangzhou/Med-Vision-AI-Agent-v0.5)  
 
 </div> 
 
